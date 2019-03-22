@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ConnectionManagerVios_Example' do
+  pod 'ConnectionManagerVios', :path => '../'
+
+  target 'ConnectionManagerVios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
